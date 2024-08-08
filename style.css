@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+}
+
+#header {
+  box-shadow: rgb(170, 170, 170) 0px 5px 10px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  opacity: 0.85;
+  height: 50px;
+  background: white;
+}
+#header-container {
+  display: flex;
+  height: 64px;
+  align-items: center;
+}
+#logo {
+  margin-left: 300px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+#flex {
+  display: flex;
+}
+#nav {
+  text-decoration: none;
+  margin-left: 800px;
+  font-size: 1rem;
+  margin-bottom: 200px;
+  color: rgb(78, 33, 3);
+  font-weight: 500;
+  transition: color 0.3s ease-in-out 0s;
+}
+#nav2 {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 1rem;
+  margin-bottom: 200px;
+  color: rgb(78, 33, 3);
+  font-weight: 500;
+}
+#principal {
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url(authentic-italian-pasta.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+}
+#texto-cointainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+  color: black;
+}
+#btn {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  background: linear-gradient(135deg, #583509 0%, #f5a623 100%);
+  border: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+#about {
+  padding: 50px 0;
+  background: #f5f5f7;
+}
+#about-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 90%;
+}
+#about-texto {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+  margin-left: 20%;
+}
+.pequeno {
+  font-size: 1.2rem;
+  color: rgb(81, 59, 4);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#about-img {
+  flex: 1 1 400px;
+  padding: 30px;
+}
+#tamanho {
+  width: 440px;
+  height: 380px;
+}
+#lorem {
+  font-size: 1.2rem;
+  color: #555;
+}
+#h2-text {
+  padding-bottom: 10px;
+}
+#contact {
+  padding: 5rem 0;
+  background: rgb(226, 226, 226);
+}
+#cointainer-contact {
+  display: flex;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+#imagem-contact2 {
+  height: 400px;
+  width: 600px;
+  object-position: center;
+  object-fit: cover;
+}
+#form-cointainer {
+  padding: 1rem;
+}
+#text-conta {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: rgb(80, 51, 4);
+  margin-bottom: 1rem;
+  margin-top: -1.2rem;
+}
+#form {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: rgb(68, 68, 68);
+}
+#text-conta2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: wheat;
+  padding-left: 35%;
+  background-color: rgb(80, 51, 4);
+}
+#imagens-footer {
+  display: flex;
+  background-color: rgb(80, 51, 4);
+  color: white;
+  padding: 4rem;
+}
+#tamanho2 {
+  width: 50px;
+  fill: white;
+  margin-left: 35%;
+}
+#tamanho2:hover {
+  cursor: pointer;
+  fill: greenyellow;
+  transition: 0.5s;
+}
+#tamanho3 {
+  width: 50px;
+  fill: white;
+  margin-left: 8%;
+}
+#tamanho3:hover {
+  cursor: pointer;
+  fill: greenyellow;
+  transition: 0.5s;
+}

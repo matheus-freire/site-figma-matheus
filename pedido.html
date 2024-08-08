@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedidos - Restaurante Saboroso</title>
+    <link rel="stylesheet" href="pedido.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="header-container">
+        <div id="logo">Freire's restaurant</div>
+        <div>
+          <a id="nav" href="index.html">Inicio</a>
+          <a id="nav2" href="index.html">Sobre</a>
+          <a id="nav2" href="cardapio.html">cardapio</a>
+          <a id="nav2" href="index.html">Contato</a>
+          <a id="nav2" href="pedido.html">pedido</a>
+          <a id="nav2" href="cadastro.html">cadastro</a>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h1>Freires's restaurant</h1>
+      <p>Seu pedido do melhor jeito possivel</p>
+    </header>
+
+    <main>
+      <h2>Faça seu pedido</h2>
+
+      <section class="cardapio">
+        <h3>Categorias:macarrao</h3>
+        <ul id="categorias-list"></ul>
+      </section>
+
+      <section class="itens">
+        <h3>Itens:1</h3>
+        <div id="itens-container"></div>
+      </section>
+
+      <section class="formulario-pedido">
+        <h3>Dados do Pedido</h3>
+        <form id="formulario-pedido">
+          <div class="campo">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div class="campo">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" />
+          </div>
+          <div class="campo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" />
+          </div>
+          <div class="campo">
+            <label for="forma-pagamento">Forma de Pagamento:</label>
+            <select id="forma-pagamento" name="forma-pagamento">
+              <option value="">Selecione</option>
+              <option value="cartao">Cartão</option>
+              <option value="dinheiro">Dinheiro</option>
+              <option value="pix">PIX</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="observacao">Observações:</label>
+            <textarea id="observacao" name="observacao"></textarea>
+          </div>
+          <section class="resumo-pedido">
+            <h3>Resumo do Pedido:</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Item:1</th>
+                  <th>Quantidade:1</th>
+                  <th>Preço:R$49.90</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+              <tfoot>
+                <tr></tr>
+              </tfoot>
+            </table>
+          </section>
+          <div>
+            <a href="index.html">
+              <input id="btn" type="button" value="enviar pedido"
+            /></a>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
